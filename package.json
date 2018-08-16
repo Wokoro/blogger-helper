@@ -3,8 +3,8 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve",
-    "nstart": "node server.js",
+    "start": "node server.js",
+    "ngstart": "ng serve",
     "build": "ng build",
     "postinstall": "ng build --aot -prod",
     "test": "ng test",
