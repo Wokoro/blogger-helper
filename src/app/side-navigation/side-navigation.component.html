@@ -1,0 +1,8 @@
+<nav>
+  <ul class="topnav" id="myTopnav">
+    <li class="icon">
+      <a href="javascript:void(0);" (click)="myFunction()">&#9776;</a>
+    </li>
+    <li *ngFor="let nav of navList"><a routerLink="{{nav.link}}" routerLinkActive="active">{{nav.name}}</a></li>
+  </ul>
+</nav>

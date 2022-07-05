@@ -1,0 +1,9 @@
+:host{
+    display: flex;
+    justify-content: space-around;
+}
+
+:host > li{
+    cursor: pointer;
+    border: 1px solid black;
+}

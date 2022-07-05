@@ -1,1 +1,16 @@
 /* You can add global styles to this file, and also import other style files */
+h5, h4{
+	text-align: center;
+	margin:0px;
+}
+ul{
+	padding:0px;
+}
+li{
+	list-style: none;
+	margin-top:12px;	
+	text-align:center;
+}
+a{
+	text-decoration: none;
+}

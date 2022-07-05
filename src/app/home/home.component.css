@@ -1,0 +1,12 @@
+/*styles for the activities*/
+div[id="latestActivities"]>ul>li{
+	font-size: 0.9m;
+	text-align:center;
+}
+
+/*STYLES FOR BLOGS SECTION*/
+
+/*styles for blog listing*/
+div[id="blogs"]>ul>li{
+	font-size: 0.9m;
+}

@@ -1,0 +1,75 @@
+a{
+	color:white;
+}
+a:active{
+	color:purple;
+}
+
+/*style for header navigation*/
+nav > span{
+	margin-top:20px;
+}
+/*RESPONSIVE TOP NAVIGATION MENU*/
+#myTopnav{
+	position: absolute;
+	top: 6px;
+}
+#login{
+	position: absolute;
+	right: 0px;
+	padding: 7px 0px;
+	cursor: pointer;
+	margin-right: 10px;
+}
+#header-helper{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: lightgray;
+	height: 38px;
+}
+ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+/* Style the links inside the list items */
+ul.topnav li {
+    display: inline-block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 7px 16px;
+    text-decoration: none;
+    transition: 0.3s;
+	font-size: 17px;
+	cursor: pointer;
+}
+.icon{
+	margin-top:0px;
+}
+.topnav{
+	width:30px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+
+@media screen and (max-width:680px) {
+	ul.topnav li:not(:first-child) {display: none;}
+	ul.topnav li.icon {
+	  display: inline-block;
+	}
+  }
+  
+  /* The "responsive" class is added to the topnav with JavaScript when the user clicks
+   on the icon. This class makes the topnav look good on small screens */
+  @media screen and (max-width:680px) {
+	ul.topnav.responsive li{
+	  display: block;
+	}
+  }
